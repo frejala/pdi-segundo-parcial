@@ -11,6 +11,7 @@ Hadi Faour - 8116060
 | **C** | Células con agujero (Tipos 2-3-4) | Reconstrucción sobre máscara |
 | **D** | Células sin agujero (Tipo 1) | AND |
 | **E** | Células completas (nucleos sueltos) | Reconstrucción + XOR/AND |
+| **F** | Células de tipo 4 completas | Reconstrucción + Dilatación |
 
 ---
 

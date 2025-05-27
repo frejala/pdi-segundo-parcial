@@ -14,7 +14,7 @@ def generate_image_F():
     # se dilata E
     dilatated_E = binary_dilation(image_E_bool, iterations=4)
     
-    cv2.imwrite(f"dilatated_E.bmp", dilatated_E.astype(np.uint8) * 255)
+    # cv2.imwrite(f"dilatated_E.bmp", dilatated_E.astype(np.uint8) * 255)
     
     # la imagen F se obtiene mediante la reconstrucción morfológica
     # de la imagen dilatada E con la imagen C como marcador
