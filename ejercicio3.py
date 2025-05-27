@@ -11,7 +11,7 @@ def generate_image_C():
     marker = image_B > 0
     
     # Se usa la imagen A como máscara (se invierte para la reconstrucción)
-    mask = ~image_A > 0
+    mask = image_A > 0
     
     # Realiza la reconstrucción morfológica
     image_C = morphological_reconstruction(marker, mask)

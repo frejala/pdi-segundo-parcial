@@ -7,7 +7,7 @@ import numpy as np
 def generate_image_B():
     image = read_image(f"{IMAGES_PATH}/image_A.bmp")
 
-    _, binary_image = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY)
+    _, binary_image = cv2.threshold(~image, 127, 255, cv2.THRESH_BINARY)
     binary_image_bool = binary_image > 0                    
     
     marker = np.zeros_like(binary_image_bool, dtype=bool)

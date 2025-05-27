@@ -18,7 +18,7 @@ def generate_image_A():
 
     border_objects = morphological_reconstruction(marker, binary_image_bool)
 
-    image_A = ~(binary_image_bool & (~border_objects))
+    image_A = (binary_image_bool & (~border_objects))
     image_A = image_A.astype(np.uint8) * 255
 
     cv2.imwrite(f"{IMAGES_PATH}/image_A.bmp", image_A)
