@@ -12,7 +12,7 @@ Hadi Faour - 8116060
 | **D** | Células sin agujero (Tipo 1) | AND |
 | **E** | Células completas (nucleos sueltos) | Reconstrucción + XOR/AND |
 | **F** | Células de tipo 4 completas | Reconstrucción + Dilatación |
-
+| **G** | Células de tipo 4 sin agujero | XOR |
 ---
 
 ## Estructura del proyecto
@@ -32,6 +32,9 @@ Hadi Faour - 8116060
 ├── ejercicio2.py           # Genera image_B.bmp
 ├── ejercicio3.py           # Genera image_C.bmp
 ├── ejercicio4.py           # Genera image_D.bmp
+├── ejercicio5.py           # Genera image_E.bmp
+├── ejercicio6.py           # Genera image_F.bmp
+├── ejercicio7.py           # Genera image_G.bmp
 │
 ├── main.py                 # Ejecuta los cuatro ejercicios en cadena
 ├── requirements.txt        # Dependencias (OpenCV, NumPy, SciPy)
