@@ -3,6 +3,7 @@ from ejercicio2 import generate_image_B
 from ejercicio3 import generate_image_C
 from ejercicio4 import generate_image_D
 from ejercicio5 import generate_image_E
+from ejercicio6 import generate_image_F
 
 if __name__ == "__main__":
     generate_image_A()
@@ -10,3 +11,4 @@ if __name__ == "__main__":
     generate_image_C()
     generate_image_D()
     generate_image_E()
+    generate_image_F()
