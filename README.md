@@ -10,6 +10,7 @@ Hadi Faour - 8116060
 | **B** | Agujeros (citoplasmas) | Reconstrucción + AND/NOT |
 | **C** | Células con agujero (Tipos 2-3-4) | Reconstrucción sobre máscara |
 | **D** | Células sin agujero (Tipo 1) | AND |
+| **E** | Células completas (nucleos sueltos) | Reconstrucción + XOR/AND |
 
 ---
 
